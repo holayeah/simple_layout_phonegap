@@ -1,4 +1,10 @@
 
+body {
+    background: url('../img/background-app.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-page {
     height: 100vh;
     display: flex;
@@ -10,14 +16,24 @@
 
 }
 
-
 .piece-page .card {
     width: 90%;
     margin: auto;
+    margin-top: 25px;
 }
 
 .piece-page .card img {
     height: 300px;
     width: 300px;
     margin: auto;
+}
+
+.container form .btn.btn-secondary {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #ccc
+}
+
+label {
+    color: white;
 }
