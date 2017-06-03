@@ -1,0 +1,23 @@
+
+.main-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page form {
+
+}
+
+
+.piece-page .card {
+    width: 90%;
+    margin: auto;
+}
+
+.piece-page .card img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
